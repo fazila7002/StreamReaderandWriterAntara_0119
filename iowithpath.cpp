@@ -9,5 +9,9 @@ int main()
     cout << "Masukkan nama file : ";
     cin >> NamaFile;
 
+    ofstream outfile;
+    outfile.open("C:\\ANTARA PEMDAS SEM2\\Antaratxt contoh\\" + NamaFile + ".txt", ios::out);
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
+
    
 }
