@@ -11,4 +11,15 @@ int main()
         array <int, 3> data = {1, 2, 3};
         cout << data.at(3) << endl;
     }
+
+        catch (exception& e) 
+    {
+           
+            
+        cout << e.what() << endl;
+            
+    }
+    cout << "Baris program terakhir" << endl;\
+    return 0;
+    
 }
