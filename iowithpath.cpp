@@ -13,5 +13,16 @@ int main()
     outfile.open("C:\\ANTARA PEMDAS SEM2\\Antaratxt contoh\\" + NamaFile + ".txt", ios::out);
     cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 
+    while (true)
+    {
+
+        cout << "- ";
+        getline(cin, baris);
+        if (baris == "q") break;
+        outfile << baris << endl;
+       
+
+    }
+
    
 }
